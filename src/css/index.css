@@ -2,4 +2,31 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  /* background-image:url('https://cdn.pixabay.com/photo/2020/10/26/15/21/post-it-5687624__340.png'); */
+  background-image:url('https://image.freepik.com/free-photo/list-pen-black-background-back-school_120608-60.jpg');
+  background-repeat: no-repeat;
+    background-color:black;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    background-position: center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  width:100%;
+  height:100%;
+  margin:0;
+}
+
+
+/* h1{
+  text-align: center;
+  font-size:5vw;
+  color:white;
+} */
+
+html{
+  overflow:hidden;
 }
