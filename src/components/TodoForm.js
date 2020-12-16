@@ -20,8 +20,8 @@ const TodoForm = ({addTodo}) => {
     }
         return(
             <form onSubmit={handleSubmit}>
-                <input name="text" value={text} onChange={handleChange} placeholder="todo..."/>
-                <button onSubmit={handleSubmit}>Add Todo</button>
+                <input id="formText" name="text" value={text} onChange={handleChange} placeholder="add new item..."/>
+                <button onSubmit={handleSubmit} className="addButton">+<i className="fas fa-plus"></i></button>
             </form>
         )
 }
